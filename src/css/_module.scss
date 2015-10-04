@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+
+.app{
+	border-top: 1px solid #ccc;
+	font-size: 11px;
+}
+.user{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	width: 100%;
+	.subBlock{
+		display: table-cell;
+		text-align: center;
+		padding: 3px 0;
+		&.block-total{
+			width: 60%;
+			border-radius: 2px;
+			background: #fff;
+		}
+		&.block-kakutoku{
+			width: 40%;
+			border-radius: 2px;
+			background: #fff;
+		}
+		.disp-total{
+			font-size: 15px;
+			line-height: 25px;
+			display: inline-block;
+		}
+		.disp-kakutoku{
+			font-size: 12px;
+			line-height: 25px;
+			display: inline-block;
+		}
+
+	}
+}
+
+.shusi{
+	background: #fff;
+	border: 2px solid #ddd;
+	margin: 0 10px;
+	padding: 10px;
+	position: relative;
+	.is-minus{
+		color: red;
+	}
+}
+.disp-shusi{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.maisuu{
+	position: absolute;
+	font-size: 11px;
+	right: 10px;
+	top: 5px;
+	color: #666;
+}
+
+
+.koma{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 7px;
+	.ttl-atari{
+		float: left;
+	}
+	.kingaku{
+		font-size: 8px;
+		margin-left: 1em;
+		color: #666;
+	}
+	.mai{
+		font-size: 12px;
+		float: right;
+	}
+}
+
+.ttl-hd{
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	position: relative;
+	.icn-head{
+		width: 14px;
+		height: 14px;
+		background: red;
+		display: inline-block;
+		margin-right: 5px;
+		border-radius: 14px;
+	}
+}
+
+
+.actionBar{
+	background: #000;
+	background: rgba(0,0,0, .6);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+
+.btn{
+	border: 1px solid blue;
+	background: #1E90FF;
+	padding: 8px 0;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+.btn[disabled]{
+	display: none;
+}
+@media only screen and (min-width: 500px){
+	body{
+		width: 500px;
+		margin: 0 auto;
+		background: black;
+	}
+	.app{
+		background: #fff;
+	}
+	.actionBar{
+		padding: 30px 0;
+		width: 500px;
+	}
+	.btn{
+		padding: 16px 0;
+		font-size: 20px;
+	}
+}
+
+
+.about{
+	font-size: 12px;
+	background: #fff;
+	h2{
+		font-size: 12px;
+	}
+}
+
+
+
+
+

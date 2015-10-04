@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+.text-small{
+	font-size: 9px;
+}
+.unit{
+	font-size: 9px;
+	margin-left: 3px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.inner{
+	padding: 10px;
+}

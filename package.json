@@ -1,0 +1,32 @@
+{
+  "name": "js-takarakuji-sim-vuejs",
+  "version": "1.0.0",
+  "description": "宝くじシミュレーター vueJS版",
+  "scripts": {
+    "css": "gulp css",
+    "js": "gulp javascript",
+    "dest": "gulp dest",
+    "test": "mocha test/kujiTest.js",
+    "make": "gulp dest && npm run test",
+    "start": "http-server ./public -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryownet/js-takarakuji-sim-vuejs.git"
+  },
+  "author": "ryownet",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "~1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-header": "^1.7.1",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "~0.7.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1",
+    "gulp-webpack": "^1.5.0",
+    "http-server": "^0.8.5",
+    "mocha": "^2.3.3",
+    "webpack": "^1.12.2"
+  }
+}
