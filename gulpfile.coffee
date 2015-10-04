@@ -3,7 +3,7 @@ gulpif       = require 'gulp-if'
 path         = require 'path'
 fs           = require 'fs'
 sass         = require 'gulp-sass'
-webpack      = require 'gulp-webpack'
+webpack      = require 'webpack-stream'
 $            = (require 'gulp-load-plugins')()
 
 # FIXME 全体的にエラー対策してません
