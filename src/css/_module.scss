@@ -44,7 +44,7 @@
 	margin: 0 10px;
 	padding: 10px;
 	position: relative;
-	.is-minus{
+	.is_minus{
 		color: red;
 	}
 }
@@ -115,6 +115,9 @@
 	cursor: pointer;
 }
 .btn[disabled]{
+	display: none;
+}
+.is_hide{
 	display: none;
 }
 @media only screen and (min-width: 500px){
